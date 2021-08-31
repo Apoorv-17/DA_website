@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/DA_website/static/css/main.193a3046.chunk.css",
+    "main.js": "/DA_website/static/js/main.5da51be6.chunk.js",
+    "main.js.map": "/DA_website/static/js/main.5da51be6.chunk.js.map",
+    "runtime-main.js": "/DA_website/static/js/runtime-main.6335009b.js",
+    "runtime-main.js.map": "/DA_website/static/js/runtime-main.6335009b.js.map",
+    "static/css/2.3ab4c7df.chunk.css": "/DA_website/static/css/2.3ab4c7df.chunk.css",
+    "static/js/2.e69004e2.chunk.js": "/DA_website/static/js/2.e69004e2.chunk.js",
+    "static/js/2.e69004e2.chunk.js.map": "/DA_website/static/js/2.e69004e2.chunk.js.map",
+    "static/js/3.aefe20da.chunk.js": "/DA_website/static/js/3.aefe20da.chunk.js",
+    "static/js/3.aefe20da.chunk.js.map": "/DA_website/static/js/3.aefe20da.chunk.js.map",
+    "index.html": "/DA_website/index.html",
+    "precache-manifest.4851722e3f5f783d7204334d8621e3b4.js": "/DA_website/precache-manifest.4851722e3f5f783d7204334d8621e3b4.js",
+    "service-worker.js": "/DA_website/service-worker.js",
+    "static/css/2.3ab4c7df.chunk.css.map": "/DA_website/static/css/2.3ab4c7df.chunk.css.map",
+    "static/css/main.193a3046.chunk.css.map": "/DA_website/static/css/main.193a3046.chunk.css.map",
+    "static/js/2.e69004e2.chunk.js.LICENSE.txt": "/DA_website/static/js/2.e69004e2.chunk.js.LICENSE.txt",
+    "static/media/about-bg.jpg": "/DA_website/static/media/about-bg.22b55734.jpg",
+    "static/media/about-future.jpg": "/DA_website/static/media/about-future.64055459.jpg",
+    "static/media/about-goal.jpg": "/DA_website/static/media/about-goal.269cc7c9.jpg",
+    "static/media/home-bg.gif": "/DA_website/static/media/home-bg.e0842f3f.gif",
+    "static/media/home-github.jpg": "/DA_website/static/media/home-github.3bda585c.jpg",
+    "static/media/home-problem.jpg": "/DA_website/static/media/home-problem.5fe15a75.jpg",
+    "static/media/home-react.jpg": "/DA_website/static/media/home-react.5dd72b61.jpg",
+    "static/media/home-why.jpg": "/DA_website/static/media/home-why.ebb14540.jpg",
+    "static/media/home-whygit.png": "/DA_website/static/media/home-whygit.c3a47618.png",
+    "static/media/logo.png": "/DA_website/static/media/logo.27bbe9c7.png",
+    "static/media/profile.jpg": "/DA_website/static/media/profile.99d6836f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6335009b.js",
+    "static/css/2.3ab4c7df.chunk.css",
+    "static/js/2.e69004e2.chunk.js",
+    "static/css/main.193a3046.chunk.css",
+    "static/js/main.5da51be6.chunk.js"
+  ]
+}
