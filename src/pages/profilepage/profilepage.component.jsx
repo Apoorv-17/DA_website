@@ -1,6 +1,6 @@
 import React from "react";
 import team_members from "../aboutpage/aboutpage.data";
-import { ContributionList } from "../../components/contribution-list/contribution-list.component";
+//import { ContributionList } from "../../components/contribution-list/contribution-list.component";
 import "./profilepage.styles.scss";
 
 export const ProfilePage = (props) => {
@@ -45,14 +45,14 @@ export const ProfilePage = (props) => {
           >
             <h1>My Contribution's to this Project</h1>
           </div>
-          <div className="features contri">
+          {/* <div className="features contri">
             {team_members[currentUser].contribution.map((contribution) => (
               <ContributionList
                 key={contribution.id}
                 contribution={contribution}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ const Homepage = () => (
       </p>
       <br></br>
       <div align="right">
-        <a className="git-button" href="https://github.com/Apoorv-17/Nano_Slayer" target="_blank" rel="noopener noreferrer">
+        <a className="git-button" href="https://github.com/Apoorv-17/Covid-19-Impact-on-Digital-Learning" target="_blank" rel="noopener noreferrer">
           REPOSITORY
         </a>
       </div>
@@ -126,7 +126,7 @@ const Homepage = () => (
           The engagement data are aggregated at school district level, and each file in the folder <b>engagement_data</b> represents data from one school district. The 4-digit file name represents <b>district_id</b> which can be used to link to district information in <b>district_info.csv</b>. The <b>lp_id</b> can be used to link to product information in <b>product_info.csv</b>.
         </p>
       </div>
-      <table class="table table-hover table-bordered">
+      <table class="table table-hover table-bordered" data-aos="slide-left">
         <thead class="table-light">
           <tr>
             <th scope="col">SNo</th>
@@ -163,7 +163,7 @@ const Homepage = () => (
           The district file <b>districts_info.csv</b> includes information about the characteristics of school districts, including data from NCES (2018-19), FCC (Dec 2018), and Edunomics Lab. In this data set, we removed the identifiable information about the school districts. We also used an open source tool ARX (Prasser et al. 2020) to transform several data fields and reduce the risks of re-identification. For data generalization purposes some data points are released with a range where the actual value falls under. Additionally, there are many missing data marked as 'NaN' indicating that the data was suppressed to maximize anonymization of the dataset.        
         </p>
       </div>
-      <table class="table table-hover table-bordered">
+      <table class="table table-hover table-bordered" data-aos="slide-left">
         <thead class="table-light">
           <tr>
             <th scope="col">SNo</th>
@@ -215,7 +215,7 @@ const Homepage = () => (
         The product file <b>products_info.csv</b> includes information about the characteristics of the top 372 products with most users in 2020. The categories listed in this file are part of LearnPlatform's product taxonomy. Data were labeled by our team. Some products may not have labels due to being duplicate, lack of accurate url or other reasons.
         </p>
       </div>
-      <table class="table table-hover table-bordered">
+      <table class="table table-hover table-bordered" data-aos="slide-left">
         <thead class="table-light">
           <tr>
             <th scope="col">SNo</th>
@@ -326,39 +326,6 @@ const Homepage = () => (
             framework for the designing of our website. React is one of the well
             known frameworks for web development which is developed by Facebook
             and has a very big community.
-          </p>
-        </div>
-      </div>
-      <div className="blocks">
-        <div className="para" data-aos="slide-right" data-aos-duration="500">
-          <h1>Unity.</h1>
-          <p>
-            For the development of the game we have decided to choose unity as
-            our main framework. It is an excellent framework which also supports
-            cross-platform development and is also well known and has a big
-            community to back it up.
-          </p>
-        </div>
-        <img
-          src={require("../../assets/home-unity.jpg")}
-          alt="why"
-          data-aos="slide-left"
-          data-aos-duration="500"
-        />
-      </div>
-      <div className="blocks">
-        <img
-          src={require("../../assets/home-C.jpg")}
-          alt="why"
-          data-aos="slide-right"
-          data-aos-duration="500"
-        />
-        <div className="para" data-aos="slide-left" data-aos-duration="500">
-          <h1>C#</h1>
-          <p>
-            Along with unity we are going to be using C# as our programming
-            language. C# will be used to design the movements and other
-            interactions for out game.
           </p>
         </div>
       </div>
