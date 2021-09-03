@@ -53,15 +53,17 @@ class Aboutpage extends React.Component {
             >
               <h1>Our Goal</h1>
               <p>
-                Our main goal in making this game was to put into use what we
-                learned during our Course of Computer Graphics and Multimedia
-                along with extra learning we did about Unity, C-Sharp and Other
-                new Technology being used now a days. While bringing out
-                something we can be proud to call "We made this Game !!!"
+                Our main goal in doing this project is find out how COVID-19 Pandemic has disrupted learning for 
+                students all over the world. The Government had no other choice but to close the schools 
+                and colleges, which adversely affected the learning of the students. In response, schools and teachers
+                have attempted to reach students remotely through distance learning tools and digital platforms.
+                So, we have come up with the idea to deeply analyze the impact of COVID-19 on student learning
+                and how digital learning has played a vital role in educating students even under these
+                circumstances.
               </p>
               <div className="forScroll">
                 <a
-                  href="https://github.com/Shush25/graphics-project"
+                  href="https://github.com/Apoorv-17/Covid-19-Impact-on-Digital-Learning"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="scroll button"
