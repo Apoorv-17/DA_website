@@ -284,7 +284,7 @@ const team_members = [
     // ],
   },
   {
-    id: 3,
+    id: 2,
     name: "Rishi Mungia",
     Job: "Data Analyst",
     github: "https://github.com/rishimungia",
