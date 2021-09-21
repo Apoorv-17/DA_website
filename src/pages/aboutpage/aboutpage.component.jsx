@@ -53,13 +53,16 @@ class Aboutpage extends React.Component {
             >
               <h1>Our Goal</h1>
               <p>
-                Our main goal in doing this project is find out how COVID-19 Pandemic has disrupted learning for 
-                students all over the world. The Government had no other choice but to close the schools 
-                and colleges, which adversely affected the learning of the students. In response, schools and teachers
-                have attempted to reach students remotely through distance learning tools and digital platforms.
-                So, we have come up with the idea to deeply analyze the impact of COVID-19 on student learning
-                and how digital learning has played a vital role in educating students even under these
-                circumstances.
+                Our main goal in doing this project is find out how COVID-19
+                Pandemic has disrupted learning for students all over the world.
+                The Government had no other choice but to close the schools and
+                colleges, which adversely affected the learning of the students.
+                In response, schools and teachers have attempted to reach
+                students remotely through distance learning tools and digital
+                platforms. So, we have come up with the idea to deeply analyze
+                the impact of COVID-19 on student learning and how digital
+                learning has played a vital role in educating students even
+                under these circumstances.
               </p>
               <div className="forScroll">
                 <a
@@ -90,9 +93,9 @@ class Aboutpage extends React.Component {
               <h1>Into the Future!!!</h1>
               <p>
                 In the future we would love to work on many different projects
-                like this one and continue to improve and learn more about Game
-                development and one day become someone worthy of being called a
-                Professional Senior Game Developer.
+                like this one and continue to improve and learn more about Data
+                Analytics and one day become someone worthy of being called a
+                Professional Data Analyst.
               </p>
             </div>
           </div>
