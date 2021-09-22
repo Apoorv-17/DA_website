@@ -58,12 +58,12 @@ const Homepage = () => (
           </p>
           <div className="forScroll">
             <a
-              href="https://www.kaggle.com/girishkumarsahu/learnplatform-covid-19-impact"
+              href="https://www.kaggle.com/c/learnplatform-covid19-impact-on-digital-learning"
               target="_blank"
               rel="noopener noreferrer"
               className="scroll button"
             >
-              Ongoing Challenge!!!
+              Kaggle Competition !!!
             </a>
           </div>
         </div>
