@@ -2,6 +2,10 @@ import React from "react";
 import "./homepage.styles.scss";
 
 import { Header } from "../../components/header/header.component";
+import { ContributionList } from "../../components/contribution-list/contribution-list.component";
+
+import DataCleaning from "./data-cleaning.data";
+import DataProcessing from "./data-processing";
 
 import Header_image from "../../assets/home-bg.gif";
 
@@ -390,44 +394,14 @@ const Homepage = () => (
       data-aos="fade-up"
       data-aos-duration="700"
     >
-      <h1>How to track our work progress ?</h1>
+      <h1>Data Pre-Processing</h1>
     </div>
-    <div className="features">
-      <div className="blocks">
-        <img
-          src={require("../../assets/home-github.jpg")}
-          alt="why"
-          data-aos="slide-right"
-          data-aos-duration="500"
-        />
-        <div className="para" data-aos="slide-left" data-aos-duration="500">
-          <h1>Github</h1>
-          <p>
-            You can easily track our progress as well as the contribution of
-            each member through our github repository the link to which is
-            available in the About section you can navigate to it using the
-            button on your top right.
-          </p>
-        </div>
-      </div>
-      <div className="blocks">
-        <div className="para" data-aos="slide-right" data-aos-duration="500">
-          <h1>Why Github?</h1>
-          <p>
-            Github is a platform which helps us to collaborate and share our
-            code with each other just as if we are coding it on the same
-            machine. It helps us to easily resolve the conflicts we might have
-            in our code and is an overall developer friendly website.
-          </p>
-        </div>
-        <img
-          src={require("../../assets/home-whygit.png")}
-          alt="why"
-          data-aos="slide-left"
-          data-aos-duration="500"
-        />
-      </div>
+    <div className="features contri">
+      {DataCleaning.map((contribution) => (
+        <ContributionList key={contribution.id} contribution={contribution} />
+      ))}
     </div>
+
     <div
       id="coins"
       className="main-heading"
@@ -435,26 +409,12 @@ const Homepage = () => (
       data-aos="fade-up"
       data-aos-duration="700"
     >
-      <h1>Platforms we are gonna use ?</h1>
+      <h1>Data Processing</h1>
     </div>
-    <div className="features">
-      <div className="blocks">
-        <img
-          src={require("../../assets/home-react.jpg")}
-          alt="why"
-          data-aos="slide-right"
-          data-aos-duration="500"
-        />
-        <div className="para" data-aos="slide-left" data-aos-duration="500">
-          <h1>React</h1>
-          <p>
-            The website you are on is developed in React as we are using React
-            framework for the designing of our website. React is one of the well
-            known frameworks for web development which is developed by Facebook
-            and has a very big community.
-          </p>
-        </div>
-      </div>
+    <div className="features contri">
+      {DataProcessing.map((contribution) => (
+        <ContributionList key={contribution.id} contribution={contribution} />
+      ))}
     </div>
   </div>
 );
