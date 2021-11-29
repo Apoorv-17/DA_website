@@ -163,28 +163,103 @@ const DataProcessing = [
   },
   {
     id: 31,
-    heading: "TypingClub",
-    Mdescription:
-      "Just out of pure curiosity let's observe the engagement graph for TypingClub",
-  },
-  {
-    id: 32,
-    imageUrl: require("../../assets/DataProcessing/trend_typingclub.png"),
-  },
-  {
-    id: 33,
-    Mdescription:
-      "After observing the graph we can make an interesting inference, Pandemic did help in motivating students to learning touch typing a little or the website might have just became popular like any other sites. The interesting observation to note here is that students who started to learn touch typing either gave up in the early stages or they decided to stick around until they actually fully learned it.",
-  },
-  {
-    id: 34,
     heading: "Spotify",
     imageUrl: require("../../assets/DataProcessing/trend_spotify.png"),
   },
   {
-    id: 35,
+    id: 32,
     Mdescription:
       "Every Season is a music season. And we still observe a dip during holidays season maybe students gets more engaged in gaming than studying wathching movies/series or listening to music.",
+  },
+  {
+    id: 33,
+    heading: "Percentage of each race by State",
+    imageUrl: require("../../assets/DataProcessing/state_race.png"),
+  },
+  {
+    id: 34,
+    Mdescription:
+      "In all of the states the percentage of hispanic students are always higher than the number of black students.",
+  },
+  {
+    id: 35,
+    heading: "Percentage of Students in the given state receiving free luch",
+    imageUrl: require("../../assets/DataProcessing/state_free.png"),
+  },
+  {
+    id: 36,
+    Mdescription:
+      "In Minnesota the percentage of student who get free lunch is the highest followed by Indiana leading by just 1% from Michigan.",
+  },
+  {
+    id: 37,
+    heading: "Expenditure of per person by state",
+    imageUrl: require("../../assets/DataProcessing/state_expenditure.png"),
+  },
+  {
+    id: 38,
+    Mdescription:
+      "In The district of Columbia and New York people pay the highest expenditure followed by Massachusetts.",
+  },
+  {
+    id: 39,
+    heading: "Distribution of Engagement Index based on state.",
+    imageUrl: require("../../assets/DataProcessing/state_engagement.png"),
+  },
+  {
+    id: 40,
+    Mdescription:
+      "The state in which students show the highest amouunt of engagement is New York which is very closely followed by Arizona then New Hamsphire",
+  },
+  {
+    id: 41,
+    heading: "Distribution of Percentage Access based on state",
+    imageUrl: require("../../assets/DataProcessing/state_access.png"),
+  },
+  {
+    id: 42,
+    Mdescription:
+      "New Hampshire followed by Arizona and New York has the highest percentage of students in the district that have at least one page-load event on a given day. This shows similar pattern to that of the engagement index.",
+  },
+  {
+    id: 43,
+    heading: "Distribution of User Engagement based on state",
+    imageUrl: require("../../assets/DataProcessing/state_user.png"),
+  },
+  {
+    id: 44,
+    Mdescription:
+      "Connecticut has the highest amount of User Engagements followed by Utah and illinos while Onio and others below it are having <= 0.5M user engagement",
+  },
+  {
+    id: 45,
+    heading: "Scatter Plot of Expenditure and Engagement Index based on State",
+    imageUrl: require("../../assets/DataProcessing/state_scatter_ee.png"),
+  },
+  {
+    id: 46,
+    Mdescription:
+      "With the help of scatterplot we can clearly observe that New York is a state which has both higher Engagement Index as well as high Expenditure. While florida has both low Engagement Index and low Expenditure. While the gold zone in the middle is where most state lies with balanced expenditure and engagement index.",
+  },
+  {
+    id: 47,
+    heading: "Scatter plot of Percentage free by state and Engagement Index.",
+    imageUrl: require("../../assets/DataProcessing/state_scatter_ef.png"),
+  },
+  {
+    id: 48,
+    Mdescription:
+      "Minesota has the highest percentage of free luch provvided while it's engagement index is of 5.5. Except a few state we notice a trend that usually the higher the Engagement Index lower is the Percentage of free lunch.",
+  },
+  {
+    id: 49,
+    heading: "Coorelation",
+    imageUrl: require("../../assets/DataProcessing/correlation.png"),
+  },
+  {
+    id: 50,
+    Mdescription:
+      "We can observe that pct_access and engagement index are positively correlated with the correlation value of 0.5 and 0.75.",
   },
 ];
 export default DataProcessing;
