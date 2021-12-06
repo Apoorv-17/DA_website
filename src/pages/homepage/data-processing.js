@@ -183,13 +183,23 @@ const DataProcessing = [
   },
   {
     id: 35,
-    heading: "Percentage of Students in the given state receiving free luch",
+    heading: "Percentage of Students in the given state receiving free lunch",
     imageUrl: require("../../assets/DataProcessing/state_free.png"),
   },
   {
     id: 36,
     Mdescription:
       "In Minnesota the percentage of student who get free lunch is the highest followed by Indiana leading by just 1% from Michigan.",
+  },
+  {
+    id: 49,
+    heading: "Correlation",
+    imageUrl: require("../../assets/DataProcessing/correlation.png"),
+  },
+  {
+    id: 50,
+    Mdescription:
+      "We can observe that pct_access and engagement index are positively correlated with the correlation value of 0.5 and 0.75.",
   },
   {
     id: 37,
@@ -252,14 +262,29 @@ const DataProcessing = [
       "Minesota has the highest percentage of free luch provvided while it's engagement index is of 5.5. Except a few state we notice a trend that usually the higher the Engagement Index lower is the Percentage of free lunch.",
   },
   {
-    id: 49,
-    heading: "Coorelation",
-    imageUrl: require("../../assets/DataProcessing/correlation.png"),
+    id: 51,
+    heading: "Scatter plot of All platform by state",
+    imageUrl: require("../../assets/DataProcessing/all_platform_by_state.png"),
   },
   {
-    id: 50,
+    id: 52,
     Mdescription:
-      "We can observe that pct_access and engagement index are positively correlated with the correlation value of 0.5 and 0.75.",
+      "The scatter plot above shows the most user engagement state is Utah, Illinois and Massachusetts respetively. Other states are below a million for California and Ohio, and the rest of states are below 500K of user engagement in the year 2020.",
   },
+  {
+    id: 53,
+    heading: "US Map showing Percetage access by State",
+    imageUrl: require("../../assets/DataProcessing/us_map1.png"),
+  },
+  {
+    id: 54,
+    heading: "US Map showing Engagement Index per State",
+    imageUrl: require("../../assets/DataProcessing/us_map2.png"),
+  },
+  {
+    id: 55,
+    Mdescription:
+      "In this map chart we see data is not complete, not all states in the US are captured in the dataset. The two maps shows similar patterns between percentage access and engagement index in each state as also shown in the bar charts.",
+  }
 ];
 export default DataProcessing;

@@ -6,6 +6,7 @@ import { ContributionList } from "../../components/contribution-list/contributio
 
 import DataCleaning from "./data-cleaning.data";
 import DataProcessing from "./data-processing";
+import AnalysisSummary from "./analysis-summary";
 
 import Header_image from "../../assets/home-bg.gif";
 
@@ -413,6 +414,21 @@ const Homepage = () => (
     </div>
     <div className="features contri">
       {DataProcessing.map((contribution) => (
+        <ContributionList key={contribution.id} contribution={contribution} />
+      ))}
+    </div>
+
+    <div
+      id="coins"
+      className="main-heading"
+      style={{ backgroundColor: "rgb(255, 208, 208)" }}
+      data-aos="fade-up"
+      data-aos-duration="700"
+    >
+      <h1>Analysis Summary</h1>
+    </div>
+      <div className="features contri">
+      {AnalysisSummary.map((contribution) => (
         <ContributionList key={contribution.id} contribution={contribution} />
       ))}
     </div>
