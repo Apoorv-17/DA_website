@@ -189,7 +189,7 @@ const DataProcessing = [
   {
     id: 36,
     Mdescription:
-      "In Minnesota the percentage of student who get free lunch is the highest followed by Indiana leading by just 1% from Michigan.",
+      "In Minnesota the percentage of student who get free lunch is the highest followed by Indiana leading by just 11% from Michigan.",
   },
   {
     id: 49,
